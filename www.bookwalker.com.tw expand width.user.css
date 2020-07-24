@@ -1,0 +1,59 @@
+/* ==UserStyle==
+@name           www.bookwalker.com.tw expand width
+@namespace      www.bookwalker.com.tw expand width
+@version        1.0.0
+@description    www.bookwalker.com.tw expand width
+@author         zero0evolution
+==/UserStyle== */
+
+@-moz-document domain("www.bookwalker.com.tw") {
+  /* 在此插入程式碼…… */
+	.bookname{
+		height:auto;
+	}
+	.navbar-fixed-top{
+		position:relative;
+	}
+	.bookdesc2 .bwbook_package{
+		height:auto;
+		width:auto;
+	}
+	.bookdesc2 .bwbookitem,.bprice,.booknamesub,.bookname{
+		width:auto;
+	}
+	.bw_wmid2{
+		max-width:100%;
+		width:auto;
+	}
+	
+	.bw_aside2{
+		position:absolute;
+		left:-275px;
+		transition:left 0.25s;
+		z-index:2;
+	}
+	.bw_aside2:hover{
+		left:0px;
+	}
+	
+	#bw_search .bw_main2,#bw_page .bw_main2,
+	#bw_container .bw_main2{
+		width:calc(100%);
+	}
+	
+	.bookdesc2 .bwbookcover{
+		height:auto;
+	}
+	.bookdesc2 .bwbookside{
+		height:auto;
+	}
+	#bw_page .row2, #bw_search .row2, #bw_container .row2,.listbox_bwmain2{
+		height:auto;
+	}
+	#bw_page .row2, #bw_search .row2, #bw_container .row2{
+		overflow:visible;
+	}
+	.slick_bwcontentbw{
+		width:auto;
+	}
+}
